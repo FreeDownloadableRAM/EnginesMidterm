@@ -1,4 +1,4 @@
-GEPA
+Using Assignment 1 as a base.
 
 Designed the platformer level to be a beginner type stage. The enmies arent meant to kill the player but just act as a small obstacle to get in the player's way. They are there to teachthe player that they reset their jump state, so that you can use them to jump off of them to reach higher heights.
 
@@ -20,4 +20,6 @@ https://sfxr.me/
 
 Synthfont, Sforzando, Touhou.sf2 were used for music.
 
-Youtube Video Link: https://www.youtube.com/watch?v=8OKs6_2tZls&ab_channel=Halinaqi2
+Youtube Video Link: 
+
+Goal is to make 2 DLLs, one that changes nothing, the other changing jump and movement speed.
