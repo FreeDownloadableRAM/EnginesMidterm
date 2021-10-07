@@ -15,7 +15,8 @@ public class EnemyMovement : MonoBehaviour
 
     //enemy properties
     private Rigidbody2D rb;
-    public float speed;
+    private float speed;
+    //public float speed;
     private float jumpForce;
 
     //targeting
@@ -35,7 +36,10 @@ public class EnemyMovement : MonoBehaviour
         Debug.Log(EnemySpeed());
 
         //set properties
-        jumpForce = 50f;
+        //jumpForce = 5f; just to check if DLL really works
+        jumpForce = EnemyJumpForce();
+        speed = EnemySpeed();
+
         rb = GetComponent<Rigidbody2D>();
 
         //set target
