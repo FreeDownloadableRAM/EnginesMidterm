@@ -23,3 +23,5 @@ Synthfont, Sforzando, Touhou.sf2 were used for music.
 Youtube Video Link: 
 
 Goal is to make 2 DLLs, one that changes nothing, the other changing jump and movement speed.
+
+DLL implementation is learnt and used from Laboratory 3 in Game Engines Design Class
