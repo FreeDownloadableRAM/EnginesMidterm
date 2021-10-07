@@ -1,9 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using System.Runtime.InteropServices;
 
 public class EnemyMovement : MonoBehaviour
 {
+    //DLL imports
+    [DllImport("SimplePlugin")]
+    private static extern float EnemyJumpForce();
+
+    [DllImport("SimplePlugin")]
+    private static extern float EnemySpeed();
+
     //enemy properties
     private Rigidbody2D rb;
     public float speed;
@@ -21,6 +30,10 @@ public class EnemyMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Check if DLL works
+        Debug.Log(EnemyJumpForce());
+        Debug.Log(EnemySpeed());
+
         //set properties
         jumpForce = 50f;
         rb = GetComponent<Rigidbody2D>();
