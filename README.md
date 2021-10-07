@@ -20,7 +20,7 @@ https://sfxr.me/
 
 Synthfont, Sforzando, Touhou.sf2 were used for music.
 
-Youtube Video Link: 
+Youtube Video Link: https://www.youtube.com/watch?v=wf3V5yyfWuo&ab_channel=Halinaqi2
 
 Goal is to make 2 DLLs, one that changes nothing, the other changing jump and movement speed.
 
